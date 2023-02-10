@@ -1,7 +1,7 @@
 
-We have list of charachters, be default 3 charachters per page
-
 This app is build by React.JS and Tailwind CSS.
+
+We have list of charachters, be default 3 charachters per page
 
 user can navigate through pages, on the firsts page <-button is disabled, and on the last page >-button is disabled.
 
