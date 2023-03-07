@@ -6,7 +6,7 @@ export default function List() {
   const [nfts, setNfts] = useState([]);
 
   useEffect(() => {
-    // owner=<your_address_here>
+    
     axios.get("https://api.opensea.io/api/v1/assets?").then((response) => {
       setNfts(response.data.assets);
     });
